@@ -134,6 +134,12 @@ nav .container {
 
 .nav-links a:hover { color: var(--text); }
 
+.nav-links a.btn-primary,
+.nav-links a.btn-primary:hover {
+    color: var(--bg);
+    transition: all 0.15s;
+}
+
 .nav-github {
     display: flex;
     align-items: center;
@@ -168,6 +174,7 @@ nav .container {
 .btn-primary {
     background: var(--green);
     color: var(--bg);
+    font-weight: 600;
     box-shadow: 0 0 0 1px rgba(37, 211, 102, 0.2), 0 8px 24px rgba(37, 211, 102, 0.2);
 }
 
